@@ -34,25 +34,25 @@ movies = ["3 Idiots", "Bourne Identity", "Bruce Almighty", "Forest Gump",
 
 # Load cover images
 cover_images = {
-    "3 Idiots": "/home/numair/Desktop/Codes/Python/Stanford Psets/Pset6/data/Movie Covers/3_Idiots.jpeg",
-    "Bourne Identity": "/home/numair/Desktop/Codes/Python/Stanford Psets/Pset6/data/movie_covers/Bourne Identity.jpg",
-    "Bruce Almighty": "/home/numair/Desktop/Codes/Python/Stanford Psets/Pset6/data/movie_covers/Bruce Almighty.jpg",
-    "Forest Gump": "/home/numair/Desktop/Codes/Python/Stanford Psets/Pset6/data/movie_covers/Forrest Gump.jpg",
-    "How to Lose a Guy in 10 Days": "/home/numair/Desktop/Codes/Python/Stanford Psets/Pset6/data/movie_covers/How to Lose a Guy in 10 Days.jpg",
-    "I Robot": "/home/numair/Desktop/Codes/Python/Stanford Psets/Pset6/data/movie_covers/I Robot.jpg",
-    "Independence Day": "/home/numair/Desktop/Codes/Python/Stanford Psets/Pset6/data/movie_covers/Independence Day.jpg",
-    "La Vita E Bella": "/home/numair/Desktop/Codes/Python/Stanford Psets/Pset6/data/movie_covers/La Vita E Bella.jpg",
-    "Lord of the Rings": "/home/numair/Desktop/Codes/Python/Stanford Psets/Pset6/data/movie_covers/Lord of the Rings.jpg",
-    "Oceans 11": "/home/numair/Desktop/Codes/Python/Stanford Psets/Pset6/data/movie_covers/Oceans 11.jpg",
-    "Patriot": "/home/numair/Desktop/Codes/Python/Stanford Psets/Pset6/data/movie_covers/Patriot.jpg",
-    "Pearl Harbor": "/home/numair/Desktop/Codes/Python/Stanford Psets/Pset6/data/movie_covers/Pearl Harbor.jpg",
-    "Pirates": "/home/numair/Desktop/Codes/Python/Stanford Psets/Pset6/data/movie_covers/Pirates.jpg",
-    "Pulp Fiction": "/home/numair/Desktop/Codes/Python/Stanford Psets/Pset6/data/movie_covers/Pulp Fiction.jpg",
-    "Rat Race": "/home/numair/Desktop/Codes/Python/Stanford Psets/Pset6/data/movie_covers/Rat Race.jpg",
-    "Shrek": "/home/numair/Desktop/Codes/Python/Stanford Psets/Pset6/data/movie_covers/Shrek.jpg",
-    "Star Wars": "/home/numair/Desktop/Codes/Python/Stanford Psets/Pset6/data/movie_covers/Star Wars.jpg",
-    "What Women Want": "/home/numair/Desktop/Codes/Python/Stanford Psets/Pset6/data/movie_covers/What Women Want.jpg",
-    "When Harry Met Sally": "/home/numair/Desktop/Codes/Python/Stanford Psets/Pset6/data/movie_covers/When Harry Met Sally.jpg"
+    "3 Idiots": "Images/3_Idiots.jpeg",
+    "Bourne Identity": "Images/Bourne Identity.jpg",
+    "Bruce Almighty": "Images/Bruce Almighty.jpg",
+    "Forest Gump": "Images/Forrest Gump.jpg",
+    "How to Lose a Guy in 10 Days": "Images/How to Lose a Guy in 10 Days.jpg",
+    "I Robot": "Images/I Robot.jpg",
+    "Independence Day": "Images/Independence Day.jpg",
+    "La Vita E Bella": "Images/La Vita E Bella.jpg",
+    "Lord of the Rings": "Images/Lord of the Rings.jpg",
+    "Oceans 11": "Images/Oceans 11.jpg",
+    "Patriot": "Images/Patriot.jpg",
+    "Pearl Harbor": "Images/Pearl Harbor.jpg",
+    "Pirates": "Images/Pirates.jpg",
+    "Pulp Fiction": "/Images/Pulp Fiction.jpg",
+    "Rat Race": "Images/Rat Race.jpg",
+    "Shrek": "Images/Shrek.jpg",
+    "Star Wars": "Images/Star Wars.jpg",
+    "What Women Want": "Images/What Women Want.jpg",
+    "When Harry Met Sally": "Images/When Harry Met Sally.jpg"
 }
 
 # Streamlit app
@@ -98,7 +98,7 @@ This neural network is a simple logistic regression model trained to predict if 
 """)
 
 # Neural network diagram
-st.image("/home/numair/Desktop/Codes/Python/Stanford Psets/Pset6/data/neural_network.png", caption="Neural Network Structure")
+st.image("Images/neural_network.png", caption="Neural Network Structure")
 
 st.write("### Calculations:")
 st.latex(r"\sigma(x) = \frac{1}{1 + e^{-x}}")
