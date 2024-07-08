@@ -34,7 +34,7 @@ movies = ["3 Idiots", "Bourne Identity", "Bruce Almighty", "Forest Gump",
 
 # Load cover images
 cover_images = {
-    "3 Idiots": "Images/3_Idiots.jpeg",
+    "3 Idiots": "Images/3_Idiots.jpg",
     "Bourne Identity": "Images/Bourne Identity.jpg",
     "Bruce Almighty": "Images/Bruce Almighty.jpg",
     "Forest Gump": "Images/Forrest Gump.jpg",
