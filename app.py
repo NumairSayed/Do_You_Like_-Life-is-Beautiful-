@@ -80,9 +80,9 @@ if st.button("Predict"):
     like_life_is_beautiful,temp = classify(X, params),predict(X, params)
 
     if like_life_is_beautiful:
-        st.success("You will likely enjoy 'Life is Beautiful'! \n With a probability of :{temp}")
+        st.success(f"You will likely enjoy 'Life is Beautiful'! \n With a probability of :{temp}")
     else:
-        st.error("You may not enjoy 'Life is Beautiful' \n With a probability of :{temp}.")
+        st.error(f"You may not enjoy 'Life is Beautiful' \n With a probability of :{temp}.")
 
 # Explanation of the neural network
 st.header("Neural Network Structure")
