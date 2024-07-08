@@ -78,12 +78,12 @@ for i, movie in enumerate(movies):
 if st.button("Predict"):
     X = [1 if movie in selected_movies else 0 for movie in movies]
     X = np.insert(X, 0, 1)  # Add bias term here
-    like_life_is_beautiful = classify(X, params)
+    like_life_is_beautiful,temp = classify(X, params),predict(X, params)
 
     if like_life_is_beautiful:
-        st.success("You will likely enjoy 'Life is Beautiful'! \n With a probability of :{predict(X,params)}")
+        st.success("You will likely enjoy 'Life is Beautiful'! \n With a probability of :{temp}")
     else:
-        st.error("You may not enjoy 'Life is Beautiful' \n With a probability of :{predict(X,params)}.")
+        st.error("You may not enjoy 'Life is Beautiful' \n With a probability of :{temp}.")
 
 # Explanation of the neural network
 st.header("Neural Network Structure")
