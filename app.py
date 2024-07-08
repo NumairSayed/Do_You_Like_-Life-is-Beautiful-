@@ -21,7 +21,7 @@ def predict(X, W):
 
 # Classification function
 def classify(X, W, threshold=0.5):
-    X = np.insert(X, 0, 1)  # Add bias term
+    #X = np.insert(X, 0, 1)  # Add bias term
     return 1 if predict(X, W) > threshold else 0
 
 # List of movies
